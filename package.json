@@ -1,0 +1,34 @@
+{
+  "name": "animal-filter-app",
+  "version": "1.0.0",
+  "description": "A JavaScript application that filters and counts animals across different countries and people. Provides functionality for searching animals and displaying statistics.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "animals",
+    "filter",
+    "search",
+    "statistics",
+    "data-processing"
+  ],
+  "author": {
+    "name": "Jean-Baptiste BRASSELET",
+    "email": "brasseletjeanbaptiste@gmail.com",
+    "url": "https://github.com/neuroleptik"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuroleptik/adeo-node-js-technical-test"
+  },
+  "bugs": {
+    "url": "https://github.com/neuroleptik/adeo-node-js-technical-test/issues"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
